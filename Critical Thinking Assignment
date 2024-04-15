@@ -1,0 +1,38 @@
+# Part1
+# Write a Python program to find the addition and subtraction of two numbers.
+# Ask the user to input two numbers (num1 and num2). Given those two numbers, add them together to find the output. Also, subtract the two numbers to find the output.
+
+# ==================================================================================================================================================================================================
+
+print('When prompted, please input a number to be processed, then input an additional number into a second prompt. Your output will shortly follow...')
+
+num1 = int(input('Please input your first number:\n'))
+num2 = int(input('Please input your second number:\n'))
+
+addition = num1 + num2
+subtract = num1 - num2
+
+print('The sum of your two numbers is:', addition)
+print('The difference of your two numbers is:', subtract)
+
+input('Operation complete. Press Enter to exit')
+
+
+# Part 2:
+# Write a Python program to find the multiplication and division of two numbers.
+# Ask the user to input two numbers (num1 and num2). Given those two numbers, multiply them together to find the output. Also, divide num1/num2 to find the output.
+
+# ==================================================================================================================================================================================================
+
+print('When prompted, please input a number to be processed, then input an additional number into a second prompt. Your output will shortly follow...')
+
+num1 = int(input('Please input your first number:\n'))
+num2 = int(input('Please input your second number:\n'))
+
+multiplication = num1 * num2
+division = num1 / num2
+
+print('The product of your two numbers is:', multiplication)
+print('The quotient of your two numbers is:', division)
+
+input('Operation complete. Press Enter to exit')
