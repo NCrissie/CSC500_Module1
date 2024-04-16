@@ -1,38 +1,71 @@
-# Part1
-# Write a Python program to find the addition and subtraction of two numbers.
-# Ask the user to input two numbers (num1 and num2). Given those two numbers, add them together to find the output. Also, subtract the two numbers to find the output.
+  # Part1
+  # Write a Python program to find the addition and subtraction of two numbers.
+  # Ask the user to input two numbers (num1 and num2). Given those two numbers, add them together to find the output. Also, subtract the two numbers to find the output.
 
-# ==================================================================================================================================================================================================
+# Begin Program
 
+#Display "When prompted, please input a number to be processed, then input an additional number into a second prompt. Your output will shortly follow..."
 print('When prompted, please input a number to be processed, then input an additional number into a second prompt. Your output will shortly follow...')
 
+# Prompt "Please input your first number:" 
 num1 = int(input('Please input your first number:\n'))
+# Read and store num1 variable
+
+# Prompt "Please input your second number:"
 num2 = int(input('Please input your second number:\n'))
+# Read and store num2 variable
 
+# Process inputs
 addition = num1 + num2
+# Set addition with num1 and num2 variables
 subtract = num1 - num2
+# Set subtract with num1 and num2 variables
 
+# Display "The sum of your two numbers is:" and display addition variable
 print('The sum of your two numbers is:', addition)
+# Display "The difference of your two numbers is:" and display subtract variable
 print('The difference of your two numbers is:', subtract)
 
+# Prompt "Operation complete. Press Enter to exit" to allow user to see the processed inputs. Await the input from user to close program
 input('Operation complete. Press Enter to exit')
 
-
-# Part 2:
-# Write a Python program to find the multiplication and division of two numbers.
-# Ask the user to input two numbers (num1 and num2). Given those two numbers, multiply them together to find the output. Also, divide num1/num2 to find the output.
 
 # ==================================================================================================================================================================================================
+# ==================================================================================================================================================================================================
+# ==================================================================================================================================================================================================
 
+
+
+  # Part 2:
+  # Write a Python program to find the multiplication and division of two numbers.
+  # Ask the user to input two numbers (num1 and num2). Given those two numbers, multiply them together to find the output. Also, divide num1/num2 to find the output.
+
+
+# Begin Program
+
+#Display "When prompted, please input a number to be processed, then input an additional number into a second prompt. Your output will shortly follow..."
 print('When prompted, please input a number to be processed, then input an additional number into a second prompt. Your output will shortly follow...')
 
+# Prompt "Please input your first number:" 
 num1 = int(input('Please input your first number:\n'))
+# Read and store num1 variable
+
+# Prompt "Please input your second number:"
 num2 = int(input('Please input your second number:\n'))
+# Read and store num2 variable
 
-multiplication = num1 * num2
+# Process inputs
+multiply = num1 * num2
+# Set multiply with num1 and num2 variables
 division = num1 / num2
+# Set division with num1 and num2 variables
 
-print('The product of your two numbers is:', multiplication)
+# Display "The product of your two numbers is:" and display multiply variable
+print('The product of your two numbers is:', multiply)
+# Display "The quotient of your two numbers is:" and display division variable
 print('The quotient of your two numbers is:', division)
 
+# Prompt "Operation complete. Press Enter to exit" to allow user to see the processed inputs. Await the input from user to close program
 input('Operation complete. Press Enter to exit')
+
+# End program
