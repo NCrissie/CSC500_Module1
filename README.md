@@ -32,3 +32,4 @@
     6. Print the product of the two using a print function, which utilizes the multiplication variable
     7. Print the quotient of the two using a print function, which utilizes the division variable
     8. Once completed, the program will display the end product, but actually immediately close out. We added an additional user input to press Enter to close. This way the program can be double-verified, but also seen by the end-user
+"# CSC500_Module3" 
